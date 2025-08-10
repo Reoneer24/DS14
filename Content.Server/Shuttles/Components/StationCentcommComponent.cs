@@ -18,7 +18,8 @@ public sealed partial class StationCentcommComponent : Component
     [DataField]
     public List<ResPath> Maps = new()
     {
-        new("/Maps/Deep-Space-Central-Command.yml")
+        new("/Maps/CentralCommand/main.yml"),
+        new("/Maps/CentralCommand/harmony.yml")
     };
 
     /// <summary>
