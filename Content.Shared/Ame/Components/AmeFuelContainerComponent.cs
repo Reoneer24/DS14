@@ -15,5 +15,5 @@ public sealed partial class AmeFuelContainerComponent : Component
     /// The maximum fuel capacity of the container.
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
-    public int FuelCapacity = 1000;
+    public int FuelCapacity = 500;
 }
